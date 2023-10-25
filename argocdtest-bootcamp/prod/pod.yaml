@@ -6,7 +6,7 @@ metadata:
     run: demo
   name: demo
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: demo
