@@ -18,7 +18,7 @@ spec:
         app: demo
     spec:
       containers:
-        - image: wumine2/boardgame
+        - image: wumine2/boardgame:replaceImageTag
           name: kubernetes
           resources: {}
 status: {}
