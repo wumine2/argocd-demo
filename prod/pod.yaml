@@ -18,7 +18,7 @@ spec:
         app: demo
     spec:
       containers:
-        - image: mylandmarktech/maven-web-app:latest
+        - image: wumine2/boardgame:v1
           name: kubernetes
           resources: {}
 status: {}
